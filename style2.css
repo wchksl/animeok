@@ -1,0 +1,69 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: aliceblue;
+}
+
+header img {
+    width: 120px;
+    margin: 20px;
+    margin-left: 70px;
+}
+
+header {
+    background-image: linear-gradient(to right, black, black, rgb(0, 130, 174));
+}
+
+nav {
+    display: flex;
+    font-size: x-large;
+    justify-content: space-between;
+    border-top: 2px solid aliceblue;
+    border-bottom: 2px solid aliceblue;
+}
+
+.link-nav:first-child {
+    color: rgb(120, 205, 208);
+    margin-left: 70px;
+}
+
+.link-nav:last-child {
+    margin-right: 70px;
+}
+
+.link-nav {
+    border: 2px inset whitesmoke;
+    border-radius: 20%;
+    margin: 20px 50px 20px 50px;
+    padding: 5px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.link-nav:hover {
+    transition: 0.8s ease-in;
+    border: 4px inset rgb(0, 130, 174);
+    padding: 7px;
+}
+
+.wtc {
+    font-size: x-large;
+    color: whitesmoke;
+    background-color: rgb(28, 126, 143);
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: 85px;
+    text-shadow: 2px 2px rgb(0, 92, 128);
+    box-shadow: 0 2px 2px 3px rgb(0, 92, 128);
+}
+
+.wtc:focus {
+    background-color: rgb(8, 49, 66)
+}
+
+.wtc:hover {
+    transition: 1s ease-in;
+    box-shadow: 0 2px 7px 3px rgb(0, 92, 128);
+    background-color: rgb(7, 141, 165);
+}
