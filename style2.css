@@ -67,3 +67,20 @@ nav {
     box-shadow: 0 2px 7px 3px rgb(0, 92, 128);
     background-color: rgb(7, 141, 165);
 }
+
+h1 {
+    margin-left: 80px;
+}
+
+h2 {
+    margin-left: 80px ;
+}
+
+p {
+    margin-left: 120px;
+    color: gray;
+}
+
+b {
+    margin-left: 20px;
+}
